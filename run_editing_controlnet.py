@@ -76,7 +76,9 @@ def edit_image_EF(edit_method,
                     source_guidance_scale=1,
                     target_guidance_scale=7.5,cross_replace_steps=0.4,
                     self_replace_steps=0.6,
-                    control_gamma=0.5,
+                    control_gamma=0.3,
+                    control_scale=0.8,
+                    control_guidance_end=0.8,
                     control_type="canny"
                     ):
     if edit_method=="edit-friendly-inversion+p2p+controlnet":
@@ -145,7 +147,9 @@ def edit_image_EF(edit_method,
                                                      zs=zs[:(NUM_DDIM_STEPS-SKIP)], 
                                                      controller=controller,
                                                      control_image=control_image_batch,
-                                                     control_gamma=control_gamma)
+                                                     control_gamma=control_gamma,
+                                                     control_scale=control_scale,
+                                                     control_guidance_end=control_guidance_end)
                                                      
         with autocast("cuda"), inference_mode():
             x0_dec = ldm_stable.vae.decode(1 / 0.18215 * w0[1].unsqueeze(0)).sample
@@ -184,7 +188,9 @@ if __name__ == "__main__":
     parser.add_argument('--output_path', type=str, default="output") # the editing category that needed to run
     parser.add_argument('--edit_category_list', nargs = '+', type=str, default=["0","1","2","3","4","5","6","7","8","9"]) # the editing category that needed to run
     parser.add_argument('--edit_method_list', nargs = '+', type=str, default=["edit-friendly-inversion+p2p+controlnet"]) # the editing methods that needed to run
-    parser.add_argument('--control_gamma', type=float, default=0.5)
+    parser.add_argument('--control_gamma', type=float, default=0.3)
+    parser.add_argument('--control_scale', type=float, default=0.8)
+    parser.add_argument('--control_guidance_end', type=float, default=0.8)
     parser.add_argument('--control_type', type=str, default="canny")
     
     args = parser.parse_args()
@@ -196,6 +202,8 @@ if __name__ == "__main__":
     edit_category_list=args.edit_category_list
     edit_method_list=args.edit_method_list
     control_gamma=args.control_gamma
+    control_scale=args.control_scale
+    control_guidance_end=args.control_guidance_end
     control_type=args.control_type
     
     # Load mapping file
@@ -296,6 +304,8 @@ if __name__ == "__main__":
                             cross_replace_steps=0.4,
                             self_replace_steps=0.6,
                             control_gamma=control_gamma,
+                            control_scale=control_scale,
+                            control_guidance_end=control_guidance_end,
                             control_type=control_type
                             )
 

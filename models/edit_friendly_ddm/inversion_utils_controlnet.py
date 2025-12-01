@@ -13,7 +13,9 @@ def inversion_reverse_process_controlnet(model,
                     controller=None,
                     asyrp = False,
                     control_image=None,
-                    control_gamma=0.5):
+                    control_gamma=0.5,
+                    control_scale=0.8,
+                    control_guidance_end=0.8):
 
     batch_size = len(prompts)
 
@@ -35,27 +37,48 @@ def inversion_reverse_process_controlnet(model,
     for t in op:
         idx = model.scheduler.num_inference_steps-t_to_idx[int(t)]-(model.scheduler.num_inference_steps-zs.shape[0]+1)
         
+        # Calculate current progress (0.0 to 1.0)
+        # t goes from T to 0. So progress is (T-t)/T
+        # But here t is a tensor or int representing the timestep value (e.g. 981, 961...)
+        # model.scheduler.config.num_train_timesteps is usually 1000.
+        current_step_ratio = 1 - (t / model.scheduler.config.num_train_timesteps)
+        
         # ControlNet forward pass
         # apply ControlNet to both unconditional and conditional branches
         # assume control_image is already properly preprocessed and on device
         
-        # Unconditional ControlNet
-        down_block_res_samples_uncond, mid_block_res_sample_uncond = controlnet(
-            xt,
-            t,
-            encoder_hidden_states=uncond_embedding,
-            controlnet_cond=control_image,
-            return_dict=False,
-        )
+        # Check if we should apply controlnet based on guidance end
+        if current_step_ratio < control_guidance_end:
+            # Unconditional ControlNet
+            down_block_res_samples_uncond, mid_block_res_sample_uncond = controlnet(
+                xt,
+                t,
+                encoder_hidden_states=uncond_embedding,
+                controlnet_cond=control_image,
+                return_dict=False,
+            )
 
-        # Conditional ControlNet
-        down_block_res_samples_cond, mid_block_res_sample_cond = controlnet(
-            xt,
-            t,
-            encoder_hidden_states=text_embeddings,
-            controlnet_cond=control_image,
-            return_dict=False,
-        )
+            # Conditional ControlNet
+            down_block_res_samples_cond, mid_block_res_sample_cond = controlnet(
+                xt,
+                t,
+                encoder_hidden_states=text_embeddings,
+                controlnet_cond=control_image,
+                return_dict=False,
+            )
+            
+            # Apply control scale
+            down_block_res_samples_uncond = [sample * control_scale for sample in down_block_res_samples_uncond]
+            mid_block_res_sample_uncond = mid_block_res_sample_uncond * control_scale
+            down_block_res_samples_cond = [sample * control_scale for sample in down_block_res_samples_cond]
+            mid_block_res_sample_cond = mid_block_res_sample_cond * control_scale
+            
+        else:
+            down_block_res_samples_uncond = None
+            mid_block_res_sample_uncond = None
+            down_block_res_samples_cond = None
+            mid_block_res_sample_cond = None
+
 
         ## Unconditional embedding
         with torch.no_grad():
@@ -79,7 +102,11 @@ def inversion_reverse_process_controlnet(model,
         # Relaxed Inversion: Blend inverted noise with random noise
         if z is not None:
             z_rand = torch.randn_like(z)
-            z = control_gamma * z + (1 - control_gamma) * z_rand
+            
+            # Use Analytical Preserving Blending (SLERP-like linear approximation)
+            # This guarantees that if input variances are 1.0, output variance is 1.0
+            denom = (control_gamma**2 + (1-control_gamma)**2) ** 0.5
+            z = ((control_gamma * z) + ((1 - control_gamma) * z_rand)) / denom
 
         if prompts:
             ## classifier free guidance
