@@ -23,7 +23,7 @@ import time
 from torch import autocast, inference_mode
 from pathlib import Path
 
-from utils.utils import load_512, txt_draw, get_image_files
+from pipeline_utils.utils import load_512, txt_draw, get_image_files
 from models.edit_friendly_ddm.inversion_utils import inversion_forward_process
 from models.edit_friendly_ddm.inversion_utils_neg import inversion_reverse_process_neg
 from models.edit_friendly_ddm.ptp_classes import AttentionReplace, AttentionRefine, AttentionStore

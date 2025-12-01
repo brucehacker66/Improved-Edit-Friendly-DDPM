@@ -12,86 +12,6 @@ output dir: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_a
   Saved edited only: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000000_edited.jpg
 finish
 
-[2/10] Processing: 224000000001.jpg
-  Original prompt: a leopard walking on unsurfaced road
-  Editing prompt: a leopard walking on unsurfaced road with a rock on the ground
-output dir: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 19.06s
-  Saved concatenated: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000001.jpg
-  Saved edited only: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000001_edited.jpg
-finish
-
-[3/10] Processing: 224000000002.jpg
-  Original prompt: a dog lying on the grass
-  Editing prompt: a dog lying on the grass with flowers
-output dir: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 19.07s
-  Saved concatenated: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000002.jpg
-  Saved edited only: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000002_edited.jpg
-finish
-
-[4/10] Processing: 224000000003.jpg
-  Original prompt: a man sitting in the grass
-  Editing prompt: a man sitting in the grass with rocks
-output dir: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 19.05s
-  Saved concatenated: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000003.jpg
-  Saved edited only: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000003_edited.jpg
-finish
-
-[5/10] Processing: 224000000004.jpg
-  Original prompt: a beautiful garden
-  Editing prompt: a beautiful garden with balloons
-output dir: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 19.03s
-  Saved concatenated: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000004.jpg
-  Saved edited only: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000004_edited.jpg
-finish
-
-[6/10] Processing: 224000000005.jpg
-  Original prompt: Two tents in the desert
-  Editing prompt: Two tents and a cockroach in the desert
-output dir: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 18.84s
-  Saved concatenated: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000005.jpg
-  Saved edited only: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000005_edited.jpg
-finish
-
-[7/10] Processing: 224000000006.jpg
-  Original prompt: a beach with waves and a blue sky
-  Editing prompt: a beach with waves and a blue sky and surfer and sharks
-output dir: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 19.12s
-  Saved concatenated: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000006.jpg
-  Saved edited only: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000006_edited.jpg
-finish
-
-[8/10] Processing: 224000000007.jpg
-  Original prompt: clouds in the sky
-  Editing prompt: clouds in the sky with stars
-output dir: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 19.31s
-  Saved concatenated: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000007.jpg
-  Saved edited only: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000007_edited.jpg
-finish
-
-[9/10] Processing: 224000000008.jpg
-  Original prompt: the bridge is lit up at night with fog
-  Editing prompt: the bridge is lit up at night with fog and a boy is sitting on the bridge
-output dir: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 19.08s
-  Saved concatenated: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000008.jpg
-  Saved edited only: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000008_edited.jpg
-finish
-
-[10/10] Processing: 224000000009.jpg
-  Original prompt: a dark grassy hillside with snow covered mountains in the background
-  Editing prompt: a dark grassy hillside with snow covered mountains in the background and a goat eating grass
-output dir: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 19.96s
-  Saved concatenated: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000009.jpg
-  Saved edited only: PnPInversion/improved_output/hyperopt-combined/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000009_edited.jpg
-finish
 
 ================================================================================
 Experiment Complete!
@@ -119,86 +39,6 @@ output dir: PnPInversion/improved_output/negprompt-source/annotation_images/2_ad
   Saved edited only: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000000_edited.jpg
 finish
 
-[2/10] Processing: 224000000001.jpg
-  Original prompt: a leopard walking on unsurfaced road
-  Editing prompt: a leopard walking on unsurfaced road with a rock on the ground
-output dir: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.19s
-  Saved concatenated: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000001.jpg
-  Saved edited only: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000001_edited.jpg
-finish
-
-[3/10] Processing: 224000000002.jpg
-  Original prompt: a dog lying on the grass
-  Editing prompt: a dog lying on the grass with flowers
-output dir: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.26s
-  Saved concatenated: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000002.jpg
-  Saved edited only: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000002_edited.jpg
-finish
-
-[4/10] Processing: 224000000003.jpg
-  Original prompt: a man sitting in the grass
-  Editing prompt: a man sitting in the grass with rocks
-output dir: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.19s
-  Saved concatenated: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000003.jpg
-  Saved edited only: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000003_edited.jpg
-finish
-
-[5/10] Processing: 224000000004.jpg
-  Original prompt: a beautiful garden
-  Editing prompt: a beautiful garden with balloons
-output dir: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.19s
-  Saved concatenated: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000004.jpg
-  Saved edited only: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000004_edited.jpg
-finish
-
-[6/10] Processing: 224000000005.jpg
-  Original prompt: Two tents in the desert
-  Editing prompt: Two tents and a cockroach in the desert
-output dir: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.17s
-  Saved concatenated: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000005.jpg
-  Saved edited only: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000005_edited.jpg
-finish
-
-[7/10] Processing: 224000000006.jpg
-  Original prompt: a beach with waves and a blue sky
-  Editing prompt: a beach with waves and a blue sky and surfer and sharks
-output dir: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.20s
-  Saved concatenated: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000006.jpg
-  Saved edited only: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000006_edited.jpg
-finish
-
-[8/10] Processing: 224000000007.jpg
-  Original prompt: clouds in the sky
-  Editing prompt: clouds in the sky with stars
-output dir: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.20s
-  Saved concatenated: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000007.jpg
-  Saved edited only: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000007_edited.jpg
-finish
-
-[9/10] Processing: 224000000008.jpg
-  Original prompt: the bridge is lit up at night with fog
-  Editing prompt: the bridge is lit up at night with fog and a boy is sitting on the bridge
-output dir: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.18s
-  Saved concatenated: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000008.jpg
-  Saved edited only: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000008_edited.jpg
-finish
-
-[10/10] Processing: 224000000009.jpg
-  Original prompt: a dark grassy hillside with snow covered mountains in the background
-  Editing prompt: a dark grassy hillside with snow covered mountains in the background and a goat eating grass
-output dir: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.19s
-  Saved concatenated: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000009.jpg
-  Saved edited only: PnPInversion/improved_output/negprompt-source/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000009_edited.jpg
-finish
 
 ================================================================================
 Experiment Complete!
@@ -226,86 +66,6 @@ output dir: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object
   Saved edited only: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000000_edited.jpg
 finish
 
-[2/10] Processing: 224000000001.jpg
-  Original prompt: a leopard walking on unsurfaced road
-  Editing prompt: a leopard walking on unsurfaced road with a rock on the ground
-output dir: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.19s
-  Saved concatenated: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000001.jpg
-  Saved edited only: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000001_edited.jpg
-finish
-
-[3/10] Processing: 224000000002.jpg
-  Original prompt: a dog lying on the grass
-  Editing prompt: a dog lying on the grass with flowers
-output dir: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.26s
-  Saved concatenated: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000002.jpg
-  Saved edited only: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000002_edited.jpg
-finish
-
-[4/10] Processing: 224000000003.jpg
-  Original prompt: a man sitting in the grass
-  Editing prompt: a man sitting in the grass with rocks
-output dir: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.28s
-  Saved concatenated: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000003.jpg
-  Saved edited only: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000003_edited.jpg
-finish
-
-[5/10] Processing: 224000000004.jpg
-  Original prompt: a beautiful garden
-  Editing prompt: a beautiful garden with balloons
-output dir: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.25s
-  Saved concatenated: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000004.jpg
-  Saved edited only: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000004_edited.jpg
-finish
-
-[6/10] Processing: 224000000005.jpg
-  Original prompt: Two tents in the desert
-  Editing prompt: Two tents and a cockroach in the desert
-output dir: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.21s
-  Saved concatenated: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000005.jpg
-  Saved edited only: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000005_edited.jpg
-finish
-
-[7/10] Processing: 224000000006.jpg
-  Original prompt: a beach with waves and a blue sky
-  Editing prompt: a beach with waves and a blue sky and surfer and sharks
-output dir: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.22s
-  Saved concatenated: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000006.jpg
-  Saved edited only: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000006_edited.jpg
-finish
-
-[8/10] Processing: 224000000007.jpg
-  Original prompt: clouds in the sky
-  Editing prompt: clouds in the sky with stars
-output dir: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.26s
-  Saved concatenated: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000007.jpg
-  Saved edited only: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000007_edited.jpg
-finish
-
-[9/10] Processing: 224000000008.jpg
-  Original prompt: the bridge is lit up at night with fog
-  Editing prompt: the bridge is lit up at night with fog and a boy is sitting on the bridge
-output dir: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.26s
-  Saved concatenated: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000008.jpg
-  Saved edited only: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000008_edited.jpg
-finish
-
-[10/10] Processing: 224000000009.jpg
-  Original prompt: a dark grassy hillside with snow covered mountains in the background
-  Editing prompt: a dark grassy hillside with snow covered mountains in the background and a goat eating grass
-output dir: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor
-  Time: 15.21s
-  Saved concatenated: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000009.jpg
-  Saved edited only: PnPInversion/improved_output/psd-0.90/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000009_edited.jpg
-finish
 
 ================================================================================
 Experiment Complete!
@@ -315,4 +75,35 @@ Successfully processed: 10
 Skipped (already exist): 0
 Errors: 0
 
+Total editing time: 154.87 seconds (2.58 minutes)
+Average time per image: 15.49 seconds (0.26 minutes)
+
 python IntegratedPipeline/run_editing_ef_p2p_masked.py --data_path PnPInversion/data/annotation_images/2_add_object_80/2_natural/4_outdoor/ --map_path PnPInversion/data/mapping_file.json --output_path PnPInversion/improved_output/
+
+================================================================================
+Processing Images
+================================================================================
+
+[1/10] Processing: 224000000000.jpg
+  Original prompt: a dry tree in the wild
+  Editing prompt: a blooming tree in the wild
+  Blended words: ['tree', 'tree']
+output dir: PnPInversion/improved_output/masked-auto/annotation_images/2_add_object_80/2_natural/4_outdoor
+  Using mask for words: ['tree', 'tree'], threshold: 0.3
+  Time: 22.80s
+  Saved concatenated: PnPInversion/improved_output/masked-auto/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000000.jpg
+  Saved edited only: PnPInversion/improved_output/masked-auto/annotation_images/2_add_object_80/2_natural/4_outdoor/224000000000_edited.jpg
+finish
+
+
+
+================================================================================
+Experiment Complete!
+================================================================================
+Total images found: 10
+Successfully processed: 10
+Skipped (already exist): 0
+Errors: 0
+
+Total editing time: 206.33 seconds (3.44 minutes)
+Average time per image: 20.63 seconds (0.34 minutes)

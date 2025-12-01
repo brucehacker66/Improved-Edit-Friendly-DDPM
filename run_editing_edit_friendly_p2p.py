@@ -9,7 +9,7 @@ import random
 import argparse
 from torch import autocast, inference_mode
 
-from utils.utils import load_512,txt_draw
+from pipeline_utils.utils import load_512,txt_draw
 from models.edit_friendly_ddm.inversion_utils import inversion_forward_process, inversion_reverse_process
 from models.edit_friendly_ddm.ptp_classes import AttentionReplace,AttentionRefine,AttentionStore
 from models.edit_friendly_ddm.ptp_utils import register_attention_control

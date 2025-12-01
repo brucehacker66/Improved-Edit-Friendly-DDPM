@@ -1,0 +1,9 @@
+python IntegratedPipeline/evaluate.py   --data_path PnPInversion/data/annotation_images/2_add_object_80/2_natural/4_outdoor/   --output_path PnPInversion/improved_output/   --mapping_file PnPInversion/data/mapping_file.json   --edit_method hyperopt-combined   --output_csv_path IntegratedPipeline/improved_output_evaluation
+
+python run_editing_ef_p2p_hyperopt.py --edit_method_list hyperopt-combined --data_path /home/bruce/penn/ese645/project/PnPInversion/data/annotation_images/2_add_object_80/2_natural/1_animal/ --map_path /home/bruce/penn/ese645/project/PnPInversion/data/mapping_file.json --output_path /home/bruce/penn/ese645/project/PnPInversion/improved_output
+
+
+python IntegratedPipeline/run_editing_controlnet.py \
+  --data_path PnPInversion/data/annotation_images/2_add_object_80/2_natural/1_animal/ \
+  --map_path PnPInversion/data/mapping_file.json \
+  --output_path PnPInversion/improved_output \

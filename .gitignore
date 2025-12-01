@@ -1,0 +1,11 @@
+# Ignore all __pycache__ directories anywhere in the repo
+__pycache__/
+
+# Ignore compiled Python files
+*.py[cod]
+
+# Ignore the improved_output_evaluation folder at repo root
+/improved_output_evaluation/
+
+# Ignore the test_data folder at repo root
+test_data/
