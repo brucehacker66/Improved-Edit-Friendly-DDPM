@@ -189,7 +189,7 @@ if __name__ == "__main__":
     parser.add_argument('--edit_category_list', nargs = '+', type=str, default=["0","1","2","3","4","5","6","7","8","9"]) # the editing category that needed to run
     parser.add_argument('--edit_method_list', nargs = '+', type=str, default=["edit-friendly-inversion+p2p+controlnet"]) # the editing methods that needed to run
     parser.add_argument('--control_gamma', type=float, default=0.3)
-    parser.add_argument('--control_scale', type=float, default=0.8)
+    parser.add_argument('--control_scale', type=float, default=0.6)
     parser.add_argument('--control_guidance_end', type=float, default=0.8)
     parser.add_argument('--control_type', type=str, default="canny")
     

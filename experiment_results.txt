@@ -107,3 +107,15 @@ Errors: 0
 
 Total editing time: 206.33 seconds (3.44 minutes)
 Average time per image: 20.63 seconds (0.34 minutes)
+
+
+================================================================================
+Experiment Complete!
+================================================================================
+Total images found: 10
+Successfully processed: 10
+Skipped: 0
+Errors: 0
+
+Total editing time: 159.98 seconds (2.67 minutes)
+Average time per image: 16.00 seconds (0.27 minutes)

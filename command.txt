@@ -7,3 +7,6 @@ python IntegratedPipeline/run_editing_controlnet.py \
   --data_path PnPInversion/data/annotation_images/2_add_object_80/2_natural/1_animal/ \
   --map_path PnPInversion/data/mapping_file.json \
   --output_path PnPInversion/improved_output \
+
+
+python evaluate_baseline.py --output_path improved_output1  --output_csv improved_output1/evaluation.csv  --edit_method edit-friendly-inversion+p2p+controlnet
